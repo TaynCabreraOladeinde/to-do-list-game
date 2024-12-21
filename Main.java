@@ -9,12 +9,12 @@ public class Main {
         String username = scanner.nextLine();
         currentUser = new User(username);
 
-        // Example of creating tasks and displaying them
-        currentUser.createTask("Finish homework");
-        currentUser.createTask("Go grocery shopping");
+        // Created  2 tasks and displayed them 
+        currentUser.createTask("Finish Summative");
+        currentUser.createTask("Volunteer for consessions.");
         currentUser.viewTasks();
 
-        // Display the current user
+        // Displays the current user
         System.out.println(currentUser.toString());
     }
 }
