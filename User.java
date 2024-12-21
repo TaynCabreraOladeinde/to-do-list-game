@@ -8,7 +8,7 @@ public class User {
     }
 
     public void createTask(String title) {
-        Task newTask = new Task(title, null); // Assuming no due date for simplicity
+        Task newTask = new Task(title, null); 
         toDoList.addTask(newTask);
     }
 
